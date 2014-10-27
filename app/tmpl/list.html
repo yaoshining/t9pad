@@ -1,0 +1,11 @@
+<ul class="common-list" id="mytest">
+	<%
+		if(data.dataList.length<=0){
+			print($("<div>").css("text-align","center").text("无符合条件的记录").prop("outerHTML"));
+		}else {
+			_.each(data.dataList,function(elem){
+					print($("<li>").append($("<h3>").text(elem[data.listview.title])).append($("<p>").addClass("content").html(elem[data.listview.content])).append($("<span>").addClass("ui-icon-rarrow")).addClass(elem[data.listview.visited]?"":"unvisited").addClass(data.listview.selected===elem[data.listview.itemId]?"active":"").prop("outerHTML"));
+			});
+		}
+	%>
+</ul>

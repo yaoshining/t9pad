@@ -1,0 +1,27 @@
+{
+	"name":         "t9pad",
+	"version":      "0.0.1",
+	"authors": [
+		"Shining Yao<ysnlvlqw@msn.com>"
+	],
+	"description": "The pad version of t9 product.",
+	"main":        "app/index.html",
+	"keywords":    [
+		"The, pad, version, of, t9, product."
+	],
+	"license":     "MIT",
+	"homepage":    "http://www.yaoshining.com",
+	"ignore":      [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"app/bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"jquery": "*",
+		"modernizr": "*"
+	}
+}
+

@@ -1,0 +1,87 @@
+[{
+	"id": 1,
+	"module": "taskRemind",
+	"name": "任务提醒",
+	"iconClass": "app-sms",
+	"tmplUrl": "tmpl/list.html",
+	"dataUrl": "data/sidebar.json"
+},{
+	"id": 2,
+	"module": "email",
+	"name": "电子邮件",
+	"iconClass": "app-email",
+	"tmplUrl": "tmpl/list.html",
+	"dataUrl": "data/sidebar.json"
+},{
+	"id": 3,
+	"module": "notify",
+	"name": "公告通知",
+	"iconClass": "app-notify",
+	"tmplUrl": "tmpl/list.html",
+	"dataUrl": "data/sidebar.json"
+},{
+	"id": 4,
+	"module": "workflow",
+	"name": "工作流",
+	"iconClass": "app-workflow",
+	"tmplUrl": "tmpl/list.html",
+	"dataUrl": "/t9/t9/mobile/workflow/act/T9PdaWorkflowIndexAct/index.act",
+	"frame": true,
+	"href": "/t9/t9/mobile/workflow/act/T9PdaWorkflowIndexAct/index.act"
+},{
+	"id": 5,
+	"module": "news",
+	"name": "内部新闻",
+	"iconClass": "app-news",
+	"tmplUrl": "tmpl/list.html",
+	"dataUrl": "data/sidebar.json"
+},{
+	"id": 6,
+	"module": "calendar",
+	"name": "日程安排",
+	"iconClass": "app-calendar",
+	"tmplUrl": "tmpl/list.html",
+	"dataUrl": "data/sidebar.json"
+},{
+	"id": 7,
+	"module": "diary",
+	"name": "工作日志",
+	"iconClass": "app-diary",
+	"tmplUrl": "tmpl/list.html",
+	"dataUrl": "data/sidebar.json"
+},{
+	"id": 8,
+	"module": "personalFolder",
+	"name": "个人文件柜",
+	"iconClass": "app-folder",
+	"tmplUrl": "tmpl/list.html",
+	"dataUrl": "data/sidebar.json"
+},{
+	"id": 9,
+	"module": "peopleQuery",
+	"name": "人员查询",
+	"iconClass": "app-query",
+	"tmplUrl": "tmpl/list.html",
+	"dataUrl": "data/sidebar.json"
+},{
+	"id": 10,
+	"module": "addressBook",
+	"name": "通讯簿",
+	"iconClass": "app-address",
+	"tmplUrl": "tmpl/list.html",
+	"dataUrl": "data/sidebar.json"
+},{
+	"id": 11,
+	"module": "zipcode",
+	"name": "区号邮编",
+	"iconClass": "app-zipcode",
+	"tmplUrl": "tmpl/list.html",
+	"dataUrl": "data/sidebar.json"
+},{
+	"id": 12,
+	"module": "settings",
+	"name": "控制面板",
+	"iconClass": "app-settings",
+	"tmplUrl": "tmpl/list.html",
+	"dataUrl": "data/sidebar.json"
+}]
